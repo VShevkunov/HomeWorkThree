@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c90f0fd8-56df-4077-93d3-4aecfcd3a690" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/YandexTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/TestConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TestConfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/YandexText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/YandexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/YandexTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +94,7 @@
       <workItem from="1622230508637" duration="1203000" />
       <workItem from="1622290317469" duration="17759000" />
       <workItem from="1622394541641" duration="8482000" />
-      <workItem from="1622487951190" duration="20754000" />
+      <workItem from="1622487951190" duration="21087000" />
     </task>
     <servers />
   </component>

@@ -92,6 +92,8 @@ public class YandexTest {
     }
 
     public void filterBy (String filter) {
+        //принимает на вход имя модели (фильтр), который на этой странице является частью локатора xPath
+        
         WebDriverWait wait = new WebDriverWait(driver, 20);
         driver.findElement(By.xpath("//span[text()='" + filter + "']")).click();
         wait.until(ExpectedConditions.invisibilityOfAllElements(driver.findElements(productSnippetBy))); //ожидаем что резултат поиска погаснет
@@ -100,13 +102,13 @@ public class YandexTest {
     }
 
     public void addToCompare(String productName) {
+        //Если аргумент метода (productName)содержится в заголовке блока товара, то добавляем его ПЕРВОГО ПРЕДСТАВИТЕЛЯ в корзину и останавливаем поиск
 
         WebDriverWait wait = new WebDriverWait(driver, 20); //неявное ожидание
         List<WebElement> productSegments = driver.findElements(productSnippetBy);  //парасинг сегментов товаров
 
         for (WebElement productSegment : productSegments) {
 
-            //Если аргумент метода (productName)содержится в заголовке блока товара, то добавляем его ПЕРВОГО ПРЕДСТАВИТЕЛЯ в корзину и останавливаем поиск
             if (productSegment.getText().toUpperCase().contains(productName.toUpperCase())) {
 
                 //перемещение внимания к товару
